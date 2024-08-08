@@ -1,3 +1,4 @@
 .idea
 /configs/*
-!/configs/email/*
+!/configs/email/
+!/configs/email/**
