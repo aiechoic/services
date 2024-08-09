@@ -3,7 +3,7 @@ package rate
 import (
 	"context"
 	"errors"
-	"github.com/aiechoic/services/internal/encoding"
+	"github.com/aiechoic/services/encoding"
 	"github.com/redis/go-redis/v9"
 	"time"
 )

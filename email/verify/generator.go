@@ -3,7 +3,7 @@ package verify
 import (
 	"context"
 	"github.com/aiechoic/services/email"
-	"github.com/aiechoic/services/internal/random"
+	"github.com/aiechoic/services/random"
 	"github.com/aiechoic/services/rate"
 	"time"
 )

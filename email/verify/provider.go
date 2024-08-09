@@ -3,7 +3,7 @@ package verify
 import (
 	"github.com/aiechoic/services/database/redis"
 	"github.com/aiechoic/services/email"
-	"github.com/aiechoic/services/internal/encoding"
+	"github.com/aiechoic/services/encoding"
 	"github.com/aiechoic/services/ioc"
 	"github.com/aiechoic/services/rate"
 	"github.com/spf13/viper"

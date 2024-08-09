@@ -3,7 +3,7 @@ package email
 import (
 	"context"
 	"github.com/aiechoic/services/database/redis"
-	"github.com/aiechoic/services/internal/encoding"
+	"github.com/aiechoic/services/encoding"
 	"github.com/aiechoic/services/ioc"
 	"github.com/aiechoic/services/ioc/healthy"
 	"github.com/aiechoic/services/message/queue"
