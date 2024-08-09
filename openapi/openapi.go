@@ -246,7 +246,9 @@ func (o *Openapi) newSchema(service string, rt reflect.Type, tag string) *Schema
 	case reflect.Struct:
 		return o.newRefStructSchema(service, rt, tag)
 	default:
-		panic(fmt.Sprintf("unsupported type: %s", rt.String()))
+		return &Schema{
+			Type: "null",
+		}
 	}
 }
 
