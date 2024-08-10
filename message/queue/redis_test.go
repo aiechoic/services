@@ -3,7 +3,7 @@ package queue_test
 import (
 	"context"
 	"github.com/aiechoic/services/database/redis"
-	"github.com/aiechoic/services/internal/encoding"
+	"github.com/aiechoic/services/encoding"
 	"github.com/aiechoic/services/ioc"
 	"github.com/aiechoic/services/message/queue"
 	"github.com/stretchr/testify/assert"
